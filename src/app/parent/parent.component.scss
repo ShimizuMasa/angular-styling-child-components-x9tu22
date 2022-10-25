@@ -1,0 +1,11 @@
+:host {
+  display: block;
+
+  padding: 1em;
+
+  background-color: green;
+}
+
+:host ::ng-deep app-child .child-view-element {
+  background-color: green !important;
+}
